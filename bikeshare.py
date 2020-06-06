@@ -6,8 +6,10 @@ CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
 
+#Storing months associating them with their codes
 month_list   = { 1 : 'JANUARY', 2 : 'FEBRUARY', 3 : 'MARCH', 4 : 'APRIL', 5 : 'MAY', 6 : 'JUNE'}
 
+#Storing days of week associating them with their codes
 weekday_list = { 0 : 'MONDAY', 1 : 'TUESDAY', 2 : 'WEDNESDAY', 3 : 'THURSDAY', 4 : 'FRIDAY', 5 : 'SATURDAY', 6 : 'SUNDAY' }
 
 
@@ -219,6 +221,6 @@ def main():
         if restart.lower() != 'yes':
             break
 
-
+#The main function : The code contained in this code will be executed first and then the sequence of execution will follow.
 if __name__ == "__main__":
 	main()
