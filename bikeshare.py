@@ -123,9 +123,6 @@ def station_stats(df):
     # TO DO: display most commonly used end station
     print('Most commonly used end station   : ', df['End Station'].mode()[0])
 
-    # TO DO: display most frequent combination of start station and end station trip
-    
-
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
@@ -167,6 +164,8 @@ def user_stats(df):
         male_count     = df[df['Gender'] == "Male"].shape[0]
         female_count   = df[df['Gender'] == "Female"].shape[0]
         print('Count of User Types : MALE = {}, FEMALE = {}'.format(male_count, female_count))
+    else :
+        print('Gender data is not available for dataset containing data of Washington')
 
     # TO DO: Display earliest, most recent, and most common year of birth
     if 'Birth Year' in df.columns:
