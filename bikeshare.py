@@ -126,9 +126,6 @@ def station_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
-
-#def start_end_station_combination
-    
     
 
 def trip_duration_stats(df):
@@ -172,6 +169,8 @@ def user_stats(df):
         print('Earliest Year Of Birth    : ', df['Birth Year'].min())
         print('Most Recent Year Of Birth : ', df['Birth Year'].max())
         print('Most Common Year Of Birth : ', df['Birth Year'].mode()[0])
+    else:
+        print('Data for year of birth is not available for dataset containing data of Washington')
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
