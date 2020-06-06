@@ -8,7 +8,7 @@ Explore US Bikeshare dataset
 Exploring US bikeshare dataset to get common statistics on popular times of travel, popular stations and trip, trip duration and user info.
 
 ### Files used
-bikeshare.py  ---  Python file containing exploratory code for the analsis of the dataset.
+bikeshare.py  ---  Python file containing code for the exploratory analsis of the dataset, that would provide us the basic outline of the stats from the dataset.
 
 ### Credits
 I would like to thank Udacity to provide such an amazing project to the learners in which they can gain noteworthy skills in Python and analyzing data with it.
