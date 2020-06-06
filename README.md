@@ -1,15 +1,16 @@
 ### Date created
-Include the date you created this project and README file.
+06-06-2020
 
 ### Project Title
-Replace the Project Title
+Explore US Bikeshare dataset
 
 ### Description
-Describe what your project is about and what it does
+Exploring US bikeshare dataset to get common statistics on popular times of travel, popular stations and trip, trip duration and user info.
 
 ### Files used
-Include the files used
+bikeshare.py  ---  Python file containing exploratory code for the analsis of the dataset.
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+I would like to thank Udacity to provide such an amazing project to the learners in which they can gain noteworthy skills in Python and analyzing data with it.
+Also I would like to thank [Codebasics Youtube Channel](https://www.youtube.com/playlist?list=PLeo1K3hjS3usJuxZZUBdjAcilgfQHkRzW) for amazing GIT and GITHUB tutorials, which helped me a lot in understanding concepts of VCS and how to work with GIT.
 
